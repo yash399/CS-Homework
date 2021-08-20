@@ -1,0 +1,66 @@
+                            Question 1)
+
+Step1) Input radius (r)
+Step2) let A = pi*r^2
+Step3) let P = 2*pi*r
+Step4) print(A, P)
+
+
+                            Question 2) 
+
+Step1) ar = [], inputing empty array
+Step2) input (max_nos), number of Numbers
+Step3) for numbers in range(0,max_nos):
+        number = int(input())
+        ar.append(number)
+Step4) maximum = 0
+       for x in ar:
+        if x>maximum:
+            maximum = x
+
+                            Question 3)
+
+Step1) ar = [],
+Step2) input (max_nos), number of Numbers
+Step3) for numbers in range(0,max_nos):
+        number = int(input())
+        ar.append(number)
+Step4) ar.sort(reverse=True)
+
+
+
+                            Question 4)
+
+Step1) num = int(input("Enter a number: "))    
+Step2) factorial = 1    
+Step3) if num < 0:    
+        print(" Factorial does not exist for negative numbers")    
+       elif num == 0:    
+        print("The factorial of 0 is 1")    
+       else:    
+        for i in range(1,num + 1):    
+           factorial = factorial*i    
+
+
+
+                            Question 5)
+
+Step1) ar = [],
+Step2) input (max_nos)
+Step3) for numbers in range(0,max_nos):
+        number = int(input())
+        ar.append(number)
+Step4) ar.sort()
+Step5) a = ar[0]
+       b = ar[-1]      
+
+
+
+
+                            Question 6)
+
+Step1) arr = []
+Step2) n = None
+Step3) while n != 0:
+         n = int(input("Enter a number: "))
+         arr.append(n)
